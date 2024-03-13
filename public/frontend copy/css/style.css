@@ -1,0 +1,2031 @@
+/*
+-------------Table of Contents for Home page---------------
+1. Header
+2. banner section
+3. Popular Book
+4. Book Categories
+5. magazine
+6. latest article
+7. Footer
+
+*/
+
+
+/***** some modules *******
+
+1. section title
+2. view details
+
+******/
+
+body{
+    background-color: #fbfbff;
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+}
+
+/* body{
+    font-family: 'Outfit', sans-serif;
+}
+/* section title */
+/* ul{
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.section_title{
+    text-align: center;
+}
+.section_title .title_text{
+    font-family: 'SamsungSharpSans';
+    font-size: 35px;
+    font-weight: 700;
+    color: #151515;
+    line-height: 60px;
+    position: relative;
+}
+.section_title .text{
+
+}
+.section_title .title_text .prev_shape {
+    width: 180px;
+    height: 2px;
+    background-color: #108666;
+    display: inline-block;
+    position: absolute;
+    top: 45%;
+    left: 19%
+}
+.section_title .title_text .prev_shape:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -275%;
+    width: 14px;
+    height: 14px;
+    background: #108666;
+    border-radius: 50%;
+
+}
+.section_title .title_text .next_shape {
+    width: 180px;
+    height: 2px;
+    background-color: #108666;
+    display: inline-block;
+    position: absolute;
+    top: 45%;
+    right: 19%
+}
+.section_title .title_text .next_shape:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -275%;
+    width: 14px;
+    height: 14px;
+    background: #108666;
+    border-radius: 50%;
+
+}
+.section_title .title_text .next_shape{
+
+} */
+/* view details */
+/* .view_details{
+    text-align: center;
+}
+.view_details a{
+    font-family: 'ProductSans';
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 19px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #108666;
+    padding: 20px 30px;
+    border-radius: 72px;
+    display: inline-block;
+    margin-top: 50px;
+}
+.view_details a i{
+    margin-left: 10px;
+} */
+/* Button Hover effects */
+/* .btn_hover{
+    position: relative;
+    overflow: hidden;
+}
+.btn_hover span{
+    position: relative;
+    z-index: 1;
+}
+.btn_hover::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    background: #d5f2ea;
+    transition: width 0.5s, height 0.5s;
+}
+.btn_hover:hover::before{
+     width: 300px;
+     height: 300px;
+}
+.btn_hover span{
+    transition: .5s;
+}
+.btn_hover:hover span{
+    color: #000000;
+} */
+
+
+/* *** header start **** */
+.navbar-toggler:focus {
+	box-shadow: unset;
+}
+.main_header{
+    padding: 15px 0;
+    transition: all 1s;
+    z-index: 9999;
+    background-color: #ffffff;
+}
+.main_header .logo{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    color: #0975F9;
+    line-height: 36px;
+}
+.main_header button span {
+	color: #0975f9;
+    font-size: 30px;
+}
+.main_header .main_menu ul li{
+    position: relative;
+    list-style-type: none;
+    margin: 0 15px;
+}
+.main_header .main_menu ul li a{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #0B1033;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 8px 0;
+    display: inline-block;
+    position: relative;
+}
+.main_header .main_menu ul li > ul{
+    position: absolute;
+    top: 150%;
+    left: 0;
+    min-width: 150px;
+    background-color: #ffffff;
+    box-shadow: 0 5px 5px -2px rgba(0,0,0,.3);
+    border-radius: 5px;
+    padding: 10px;
+    border-top: 3px solid #0975f9;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s ease-in-out;
+
+}
+.main_header .main_menu ul li:hover > ul{
+    top: 100%;
+    visibility: visible;
+    opacity: 1;
+}
+.main_header .main_menu ul li > ul li{
+    margin: 0;
+    display: block;
+}
+
+.main_header .main_menu ul li a.active::after,
+.main_header .main_menu ul li::after{
+    content: "";
+    position: absolute;
+    left: auto;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 4px;
+    background-color: #0975f9;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+.main_header .main_menu ul li a.active::after,
+.main_header .main_menu ul li:hover::after{
+    width: 0;
+    right: auto;
+    left: 0;
+    height: 0;
+}
+
+.main_header .main_menu ul li a:hover{
+    color: #0975f9 !important;
+    transition: all .4s ease !important;
+    -webkit-transition: all .4s ease !important;
+}
+.main_header .main_menu ul li a.active{
+    color: #0975f9 !important;
+}
+
+.main_header .apply .apply_btn{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: capitalize;
+    background:  #0975F9;
+    border: 1.5px solid transparent;
+    padding: 16px 45px;
+    display: inline-block;
+    border-radius: 30px;
+    transition: all .2s ease-in-out;
+}
+.main_header .apply .apply_btn:hover{
+    background: transparent;
+    border: 1.5px solid #0975F9;
+    color: #0B1033;
+}
+.main_header .account a{
+    width: 40px;
+    height: 40px;
+    background: #0d6efd;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+.main_header.sticky {
+	background-color: #ffffff;
+	box-shadow: 0px 0px 10px 0px;
+	position: fixed;
+	top: 0;
+	z-index: 1020;
+	left: 0;
+	width: 100%;
+}
+.sticky .logo{
+    color: #000000;
+}
+.sticky .main_menu ul li a{
+    color: #000000;
+}
+.sticky button span{
+    color: #000000;
+}
+/* other pages menu color */
+.secondary_header {
+	background-color: #d5f2ea;
+	padding: 20px 0;
+}
+.secondary_header .logo{
+    color: #108666;
+}
+.secondary_header .main_menu ul li a{
+    color: #242424;
+}
+.secondary_header.sticky{
+    background-color: #d5f2ea;
+}
+
+/* *** header end **** */
+
+/* banner section start */
+
+.banner_section{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: 80vh;
+}
+.banner_section:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+
+}
+.banner_content{
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    padding: 200px 0 150px;
+}
+.banner_content .banner_title{
+    font-family: 'SamsungSharpSans';
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 91px;
+    color: #ffffff;
+}
+.banner_content .banner_text{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 30.6px;
+    width: 55%;
+    margin: auto;
+
+}
+.banner_content .banner_btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+.banner_content .banner_btn .all_btn{
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0B1033;
+    text-decoration: none;
+    text-transform: capitalize;
+    width: 180px;
+    line-height: 28px;
+    border-radius: 10px;
+    padding: 14px 0;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s ease-in-out;
+    margin: 0 10px;
+}
+.banner_content .banner_btn .all_btn:hover{
+    background-color: #0975F9;
+    color: #ffffff;
+}
+/* banner section end */
+
+/* Tuition section start*/
+.tuition{
+    padding: 100px 0;
+}
+.tuition .section_title h2{
+    text-align: center;
+    font-family: 'SamsungSharpSans';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #002E45;
+    text-transform: capitalize;
+}
+.tuition .tuition_news{
+    margin-top: 60px;
+}
+.post_card{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 7px 90px rgba(132, 140, 207, 0.12);
+    position: relative;
+    margin-bottom: 35px;
+    transition: all .3s;
+}
+.post_card:hover {
+	box-shadow: 0 5px 5px 2px rgba(132, 140, 207, 0.12);
+	transform: translateY(-5px);
+}
+.post_card .post_card_header {
+	display: flex;
+	justify-content: space-between;
+}
+.post_card .post_card_header .class_title h4{
+    font-family: 'SamsungSharpSans';
+    font-size: 22px;
+    color: #0B1033;
+    line-height: 29px;
+}
+.post_card .post_card_header .job_id span{
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #0975F9;
+    line-height: 26px;
+}
+.post_card .post_meta {
+	display: flex;
+	justify-content: start;
+    margin: 5px 0 10px;
+}
+.post_card .post_meta .location{
+    color: #8E90A0;
+}
+.post_card .post_meta .location i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.post_card .post_meta .location span{
+    font-size: 16px;
+    margin-right: 15px;
+}
+.post_card .post_meta .date span{
+    font-family: 'Outfit', sans-serif;
+    color: #8E90A0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 15px;
+    position: relative;
+}
+.post_card .post_meta .date span::before {
+	content: '';
+	position: absolute;
+	left: -15px;
+	bottom: 3px;
+	width: 1.5px;
+	height: 12px;
+	background-color: #8E90A0;
+}
+.post_card .post_card_content {
+	margin-bottom: 15px;
+}
+.post_card .post_card_content .content_item{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.post_card .post_card_content .content_item .icon{
+    margin-right: 12px;
+}
+.post_card .post_card_content .content_item .icon i {
+	width: 40px;
+	height: 40px;
+	background: #E6F1FE;
+	border-radius: 0px 20px 20px 20px;
+	color: #0975F9;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    transition: all .3s ease-in-out;
+}
+.post_card .post_card_content .content_item .icon i:hover {
+	background: #0975F9;
+	color: #E6F1FE;
+}
+.post_card .post_card_content .content_item .item_data{
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #0B1033;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+.post_card .button {
+	text-align: center;
+	position: absolute;
+	bottom: -5%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.post_card .button .view_btn{
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    background: #0975F9;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 26px;
+    border-radius: 22px;
+   border: 1.5px solid transparent;
+   transition: all .2s ease-in-out;
+}
+.not_available_btn{
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #070707;
+    text-transform: capitalize;
+    background: #939ca0;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 26px;
+    border-radius: 22px;
+   border: 1.5px solid transparent;
+   transition: all .2s ease-in-out;
+}
+.post_card .button .view_btn:hover {
+    background: #ffffff;
+    border: 1.5px solid #0975F9;
+    color: #0B1033;
+}
+/* Tuition section end*/
+
+/* Newsletter css start*/
+.newsletter{
+    text-align: center;
+    padding: 100px 0 80px;
+}
+.newsletter .news_subtitle{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    line-height: 31px;
+    color: #0975F9;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.newsletter .news_title{
+    font-family: 'SamsungSharpSans';
+    font-size: 36px;
+    line-height: 45px;
+    color: #0B1033;
+    margin-bottom: 30px;
+}
+.newsletter .newsletter_form{}
+.newsletter .newsletter_form form{
+    max-width: 564px;
+    margin: auto;
+    position: relative;
+}
+.newsletter .newsletter_form form input{
+    width: 100%;
+    border: 1.5px solid #0975F9;
+    border-radius: 32.5px;
+    height: 64px;
+    padding: 0 30px;
+    font-size: 18px;
+}
+.newsletter .newsletter_form form .news_btn{
+    font-family: 'ProductSans';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    background: #0975F9;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 26px;
+    border-radius: 155px;
+    border: 0;
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    transform: translateY(-50%);
+    transition: all .3s ease-in-out;
+}
+.newsletter .newsletter_form form .news_btn:hover {
+    color: #000000;
+    background: #dfeeff;
+}
+.newsletter{}
+.newsletter{}
+/* Newsletter css end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer start */
+.footer{
+}
+.footer .footer_top{
+    padding: 60px 0 40px;
+}
+.footer .footer_top .footer_intro{
+
+}
+.footer .footer_top .footer_intro h3{
+    font-family: 'ProductSans';
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #108666;
+
+}
+.footer .footer_top .footer_intro p{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #82859B;
+    line-height: 26px;
+}
+.footer .footer_top .footer_intro .social_links{
+
+}
+.footer .footer_top .footer_intro .social_links ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+.footer .footer_top .footer_intro .social_links ul li{
+
+    margin-right: 10px;
+
+}
+.footer .footer_top .footer_intro .social_links ul li a{
+    font-size: 18px;
+    text-decoration: none;
+}
+.footer .footer_top .footer_intro .social_links ul li.facebook a{
+    color: #015BFA;
+    border: 1px solid#015BFA;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease-in-out;
+}
+.footer .footer_top .footer_intro .social_links ul li.facebook a:hover{
+    background: #015BFA;
+    color: #ffffff;
+}
+.footer .footer_top .footer_intro .social_links ul li.instagram a{
+    color: #FF006B;
+    border: 1px solid#FF006B;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease-in-out;
+}
+.footer .footer_top .footer_intro .social_links ul li.instagram a:hover{
+    background: #FF006B;
+    color: #ffffff;
+}
+.footer .footer_top .footer_intro .social_links ul li.twitter a{
+    color: #55ACEE;
+    border: 1px solid#55ACEE;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease-in-out;
+}
+.footer .footer_top .footer_intro .social_links ul li.twitter a:hover{
+    background: #55ACEE;
+    color: #ffffff;
+}
+/* important links */
+.footer .footer_top .important_links{
+}
+.footer .footer_top .important_links .link_title{
+}
+.footer .footer_top .important_links .link_title h3{
+    font-family: 'SamsungSharpSans';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #4B517E;
+    margin-bottom: 15px;
+}
+.footer .footer_top .important_links ul{
+    list-style: none;
+    padding: 0;
+}
+.footer .footer_top .important_links ul li a{
+    color:#82859B;
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    line-height: 28px;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+.footer .footer_top .important_links ul li a:hover{
+    color:#0B1033;
+}
+
+/* categories */
+.footer .footer_top .pages{
+}
+.footer .footer_top .pages .pages_title{
+}
+.footer .footer_top .pages .pages_title h3{
+    font-family: 'SamsungSharpSans';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #4B517E;
+    margin-bottom: 15px;
+}
+.footer .footer_top .pages ul{
+    list-style: none;
+    padding: 0;
+}
+.footer .footer_top .pages ul li a{
+    color:#82859B;
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    line-height: 28px;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+.footer .footer_top .pages ul li a:hover{
+    color: #0B1033;
+}
+/* contact */
+.footer .footer_top .contact_us{
+
+}
+.footer .footer_top .contact_us .contact_title h3{
+    font-family: 'SamsungSharpSans';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #4B517E;
+    margin-bottom: 15px;
+}
+.footer .footer_top .contact_us .contact_item a{
+    color:#82859B;
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    line-height: 28px;
+    text-decoration: none;
+    display: block;
+    transition: all .2s ease-in-out;
+}
+.footer .footer_top .contact_us .contact_item a:hover{
+    color: #0B1033;
+}
+
+.copyright_area{
+    border-top: 1px solid rgba(107, 105, 153, 0.39);
+    padding: 30px 0 10px;
+}
+.copyright_area p{
+    font-family: 'ProductSans';
+    color: #6B6999;
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 400;
+    text-align: center;
+}
+.copyright_area p a{
+    text-decoration: none;
+}
+
+/* Footer end */
+
+
+/* job board start*/
+.job_board{
+
+}
+.job_board nav{
+    margin-top: 50px;
+}
+.job_board nav ul li a:focus{
+    box-shadow: unset;
+}
+.job_board nav ul li a{
+    border-color: #015BFA;
+}
+
+
+.job_board .section_title{
+    text-align: center;
+	font-family: 'SamsungSharpSans';
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 45px;
+	color: #0B1033;
+	text-transform: capitalize;
+    padding-top: 60px;
+}
+.job_board .jobs_post{
+    padding: 80px 0;
+}
+/* job board end*/
+
+
+/* father registration start*/
+.login_registration{
+    padding: 100px 0;
+}
+.login_registration .image_area{
+    text-align: center;
+}
+.login_registration .image_area img{
+    width: 60%;
+}
+.login_registration .input_area{
+    background: white;
+    padding: 15px 22px;
+    box-shadow: 0px 0px 5px 0px;
+}
+.login_registration .input_area .input_header{
+    margin: 0px 0px 40px;
+}
+.login_registration .input_area .input_header .subtitle{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #7B809A;
+}
+.login_registration .input_area .input_header .title{
+    font-family: 'SamsungSharpSans';
+    font-size: 30px;
+    line-height: 38px;
+    color: #0B1033;
+    margin-bottom: 26px;
+}
+.login_registration .input_area .input_header .subtitle_with_link{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #7B809A;
+}
+.login_registration .input_area .input_header .subtitle_with_link a{
+    text-decoration: none;
+}
+.login_registration .input_area .field_area{}
+.login_registration .input_area form{}
+.login_registration .input_area form label{
+    font-family: 'Outfit', sans-serif;
+    font-size: 19px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #0B1033;
+}
+
+.login_registration .input_area form input, .login_registration .input_area form select, .login_registration .input_area form .select2-selection--multiple {
+    background: #F8F8F8;
+    padding: 20px;
+    border: 2px solid #E8E8E8;
+    border-radius: 12px;
+    color: #7B809A;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
+    margin: 0px 0px 30px;
+}
+
+.login_registration .input_area form input:focus{
+    background: #ffffff;
+}
+.login_registration .input_area form input:focus,
+.login_registration .input_area form button:focus{
+    box-shadow: unset;
+
+}
+.login_registration .input_area form button.submit{
+    width: 100%;
+    padding: 20px;
+    border-radius: 12px;
+    background: #0975F9;
+    border: 2px solid transparent;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 20px;
+    transition: all .2s ease-in-out;
+}
+.login_registration .input_area form button.submit:hover{
+    background: #f8f8f8;
+    border: 2px solid #0975F9;
+    color: #344767;
+}
+.login_registration .input_area form button.sign_with_google{
+    width: 100%;
+    background: #F8F8F8;
+    padding: 20px;
+    border: 2px solid #E8E8E8;
+    border-radius: 12px;
+    color: #344767;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 500;
+}
+.login_registration .input_area form button.sign_with_google img {
+	width: 17px;
+	margin: -3px 10px 0px;
+}
+/* father registration end*/
+
+
+/* father profile css start */
+.profile{}
+.profile .father_profile{
+    padding: 150px 0;
+    position: relative;
+}
+.profile .father_profile::after {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 770px 0 0 670px;
+	border-color: transparent transparent transparent #007bff;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+}
+.profile .father_profile .profile_image{
+    text-align: right;
+}
+.profile .father_profile .profile_image img{
+    width: 436px;
+    margin-right: 50px;
+}
+.profile .father_profile .profile_info{}
+.profile .father_profile .profile_info .name_and_id{}
+.profile .father_profile .profile_info .name_and_id .profile_name{
+    font-size: 30px;
+    font-family: 'SamsungSharpSans';
+    line-height: 38px;
+    color: #0B1033;
+}
+.profile .father_profile .profile_info .name_and_id .profile_id{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #0975F9;
+    margin-bottom: 25px;
+}
+.profile .father_profile .profile_info .other_info{}
+.profile .father_profile .profile_info .other_info .info_type {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.profile .father_profile .profile_info .other_info .info_type .first{
+    width: 40%;
+}
+.profile .father_profile .profile_info .other_info .info_type .first .info_name{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #8E90A0;
+}
+.profile .father_profile .profile_info .other_info .info_type .second{
+    width: 60%;
+}
+.profile .father_profile .profile_info .other_info .info_type .second .info_value{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #8E90A0;
+}
+.profile .father_profile .profile_info .other_info .info_type .second .info_value::before{
+    content: ':';
+    margin-right: 10px;
+}
+/* father profile css end */
+
+/* tutor profile start */
+.profile{}
+.profile .profile_container{
+    max-width: 960px;
+    margin: auto;
+}
+.tutor_profile {
+	background: #FFFFFF;
+	border: 1px solid #EFECF4;
+	box-shadow: 17px 17px 100px rgba(11, 16, 51, 0.04);
+	margin: 60px 0px;
+}
+.tutor_profile .profile_padding {
+	padding: 15px;
+}
+.tutor_profile .profile_image{
+    max-width: 200px;
+    max-height: 200px;
+    overflow: hidden;
+}
+.tutor_profile .profile_image img{
+    width: 100%;
+}
+.tutor_profile .profile_description {
+	margin-top: 10px;
+}
+.tutor_profile .profile_description .profile_name{
+    font-family: 'SamsungSharpSans';
+    font-size: 26px;
+    line-height: 33px;
+    color: #0B1033;
+    text-decoration: capitalize;
+}
+.tutor_profile .profile_description .oneliner{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #8E90A0;
+}
+.tutor_profile .profile_description .description_content{}
+.tutor_profile .profile_description .description_content .content_item{
+    display: flex;
+    margin-top: 10px;
+}
+.tutor_profile .profile_description .description_content .content_item .icon{
+    font-size: 20px;
+    color: #8E90A0;
+}
+.tutor_profile .profile_description .description_content .content_item .icon i{
+    margin-right: 10px;
+}
+.tutor_profile .profile_description .description_content .content_item .icon.star{
+    color: #FDB827;
+}
+.tutor_profile .profile_description .description_content .content_item .icon.tik{
+    color: #23C55E;
+}
+.tutor_profile .profile_description .description_content .content_item .item_data{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #8E90A0;
+    margin: 0;
+}
+.tutor_profile .profile_description .description_content .content_item .item_data span{
+    font-weight: 600;
+    font-size: 20px;
+    color: #8E90A0;
+}
+.tutor_profile .profile_description .description_content .subject{}
+.tutor_profile .profile_description .description_content .subject .sub_content{
+    margin-top: 10px;
+}
+.tutor_profile .profile_description .description_content .subject .sub_content .icon{}
+.tutor_profile .profile_description .description_content .subject .sub_content .item_data{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0;
+    color: #8E90A0;
+}
+.tutor_profile .profile_description .description_content .subject .sub_content .item_data span{
+    font-weight: 600;
+    font-size: 20px;
+}
+.tutor_profile .starting_from {
+	margin-top: 30px;
+}
+.tutor_profile .starting_from .starting_text{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0;
+    color: #8E90A0;
+}
+.tutor_profile .starting_from .starting_money{
+    font-family: 'SamsungSharpSans';
+    font-size: 22px;
+    line-height: 28px;
+    color: #0975F9;
+    margin-top: 10px;
+}
+.tutor_profile .action_btn {
+	display: flex;
+	justify-content: end;
+    padding: 12px 12px;
+    border-top: 1px dashed #DDDDDD;
+}
+.tutor_profile .action_btn .save_btn{
+	font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #8E90A0;
+    text-decoration: none;
+    margin: 0px 5px;
+    padding: 6px 10px
+}
+.tutor_profile .action_btn .talk_btn{
+	border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    padding: 6px 10px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #0B1033;
+    text-decoration: none;
+    margin: 0px 5px;
+    transition: all .3s ease-in-out;
+}
+.tutor_profile .action_btn .talk_btn:hover{
+    background-color: #0975F9;
+    color: #ffffff;
+}
+.tutor_profile .action_btn .book_btn{
+	border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 6px 10px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #0975F9;
+    margin: 0px 5px;
+    transition: all .3s ease-in-out;
+}
+.tutor_profile .action_btn .book_btn:hover{
+    border: 1px solid #DDDDDD;
+    background: transparent;
+    color: #0B1033;
+}
+
+.profile_review{}
+.profile_review .review_menu{
+    background: #FFFFFF;
+    border: 1px solid #EFECF4;
+    box-shadow: 17px 17px 100px rgba(11, 16, 51, 0.04);
+    box-sizing: border-box;
+}
+.profile_review .review_menu ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.profile_review .review_menu ul li{
+    list-style: none;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #999999;
+    padding: 15px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.profile_review .review_menu ul li.active{
+    border-left: 1px solid#EFECF4;
+    border-right: 1px solid#EFECF4;
+    border-bottom: 3px solid #FFD101;
+
+}
+.profile_review .review_content{
+    background: #FFFFFF;
+    border: 1px solid #EFECF4;
+    box-shadow: 17px 17px 100px rgba(11, 16, 51, 0.04);
+    box-sizing: border-box;
+    padding: 15px;
+    border-bottom: 1px solid #EFECF4;
+}
+.profile_review .review_content .profile_image {
+	width: 70px;
+	height: 70px;
+}
+.profile_review .review_content .profile_image img{
+    width: 100%;
+}
+.profile_review .review_content .reviewer_name{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #8E90A0;
+    text-transform: capitalize;
+}
+.profile_review .review_content .rattings{
+    display: flex;
+}
+.profile_review .review_content .rattings span{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #999999;
+    margin-right: 10px;
+}
+.profile_review .review_content .rattings ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #FDB827;
+}
+.profile_review .review_content .rattings ul li{}
+.profile_review .review_content .rattings ul li {
+	margin-top: -3px;
+}
+.profile_review .review_content .review_comment p {
+	font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #747373;
+    margin-top: 15px;
+}
+.profile_review .review_content p{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #747373;
+}
+.profile_review .tab_content{
+    display: none;
+}
+.profile_review .tab_content.active{
+    display: block;
+}
+/* tutor profile end */
+
+/* tutor history start */
+.portfolio_experience{
+    background: #FFFFFF;
+    border: 1px solid #EFECF4;
+    box-shadow: 17px 17px 100px rgba(11, 16, 51, 0.04);
+}
+.portfolio_experience .experience_title{
+    border-bottom: 1px dashed #DDDDDD;
+    padding: 15px 25px 10px;
+}
+.portfolio_experience .experience_title h3{
+    font-family: 'SamsungSharpSans';
+    color: #0B1033;
+    font-size: 26px;
+    line-height: 33px;
+
+}
+.portfolio_experience .experience_description {
+    padding: 15px 25px;
+}
+.portfolio_experience .experience_description p{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #8E90A0;
+}
+.active_tution_area{
+    margin: 60px 0;
+}
+.active_tution_area .active_tution_item{
+    background: #FFFFFF;
+    border: 1px solid #EFECF4;
+    box-shadow: 17px 17px 100px rgba(11, 16, 51, 0.04);
+    margin-bottom: 25px;
+}
+.active_tution_area .active_tution_item .item_header{
+    border-bottom: 1px dashed #DDDDDD;
+    padding: 15px 25px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.active_tution_area .active_tution_item .item_header h4{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #0B1033;
+}
+.active_tution_area .active_tution_item .item_header a{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #0A75F9;
+    text-decoration: none;
+}
+.active_tution_area .active_tution_item .item_body{
+    padding: 15px 25px;
+    text-align: center;
+}
+.active_tution_area .active_tution_item .item_body h4.day{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #0B1033;
+    display: inline;
+    border-bottom: 1px dashed #DDDDDD;
+}
+.active_tution_area .active_tution_item .item_body .tution_item{
+    margin: 20px 40px;
+
+}
+.active_tution_area .active_tution_item .item_body .tution_item .profile_image{
+    text-align: right;
+}
+.active_tution_area .active_tution_item .item_body .tution_item .tution_description{
+    text-align: left;
+}
+.active_tution_area .active_tution_item .item_body .tution_item .tution_description h4{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #0A75F9;
+    margin-bottom: 0;
+}
+.active_tution_area .active_tution_item .item_body .tution_item .tution_description h5{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #868F9C;
+    margin-bottom: 0;
+}
+.active_tution_area .active_tution_item .item_body .tution_item .icon{
+    text-align: left;
+}
+.active_tution_area .active_tution_item .item_body .tution_item .icon i{
+    color: #23C55E;
+}
+/* tutor history end */
+
+/* price start */
+.price{
+    padding: 100px 0;
+}
+.price .section_title{
+    text-align: center;
+}
+.price .section_title .subtitle{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 31px;
+    color: #0A75F9;
+}
+.price .section_title .title{
+    font-family: 'SamsungSharpSans';
+    color: #0B1033;
+    font-size: 36px;
+    line-height: 45px;
+}
+.price .price_table{
+    margin-top: 60px;
+}
+.price .price_table .single_table{
+    background: #FFFFFF;
+    border: 1px solid #0975F9;
+    box-shadow: 0px 100px 80px rgba(9, 117, 249, 0.07), 0px 12.5216px 10.0172px rgba(9, 117, 249, 0.035), 0px 6.6501px 5.32008px rgba(9, 117, 249, 0.0282725);
+    backdrop-filter: blur(5000px);
+    padding: 30px;
+    transition: all .2s ease-in-out;
+    margin-bottom: 25px;
+}
+.price .price_table .single_table:hover{
+    background: #0975F9;
+    box-shadow: 0px 100px 80px rgba(9, 117, 249, 0.07), 0px 41.7776px 33.4221px rgba(9, 117, 249, 0.0503198), 0px 22.3363px 17.869px rgba(9, 117, 249, 0.0417275), 0px 12.5216px 10.0172px rgba(9, 117, 249, 0.035), 0px 6.6501px 5.32008px rgba(9, 117, 249, 0.0282725), 0px 2.76726px 2.21381px rgba(9, 117, 249, 0.0196802);
+    color: #ffffff !important;
+}
+.price .price_table .single_table .plan_name{
+    font-family: 'SamsungSharpSans';
+    color: #0975F9;
+    font-size: 24px;
+    line-height: 42px;
+    text-align: center;
+}
+.price .price_table .single_table:hover .plan_name{
+    color: #ffffff;
+}
+
+.price .price_table .single_table .plan_price{
+    font-family: 'SamsungSharpSans';
+    color: #0B1033;
+    font-size: 33px;
+    line-height: 84px;
+    text-align: center;
+}
+.price .price_table .single_table:hover .plan_price{
+    color: #ffffff;
+}
+.price .price_table .single_table .plan_description{
+    font-family: 'ProductSans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+}
+.price .price_table .single_table .specifications_list{
+    list-style: none;
+    padding: 0;
+}
+.price .price_table .single_table .specifications_list li{
+    font-family: 'ProductSans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 5px;
+}
+.price .price_table .single_table .specifications_list li::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00c";
+    color: #0975F9;
+    margin-right: 10px;
+}
+.price .price_table .single_table:hover .specifications_list li::before{
+    color: #ffffff;
+}
+/* price end */
+
+/* all tutor start */
+.tutors_section{
+    padding: 50px 0;
+}
+.tutors_section .all_tutors{}
+.tutors_section .all_tutors .single_tutor{
+    text-align: center;
+    margin-bottom: 25px;
+    transition: all .3s ease-in-out;
+}
+.tutors_section .all_tutors .single_tutor:hover{
+	box-shadow: 0 5px 5px -2px rgba(0,0,0,.3);
+	transform: translateY(-5px);
+    border-radius: 14px;
+}
+.tutors_section .all_tutors .single_tutor .tutor_profile_image {
+	background: #E6F1FE;
+	border-radius: 14px 14px 0 0;
+	max-height: 300px;
+	min-height: 300px;
+	overflow: hidden;
+}
+.tutors_section .all_tutors .single_tutor .tutor_profile_image img{
+    width: 100%;
+
+}
+.tutors_section .all_tutors .single_tutor .tutor_description{
+    background: #F6F3FD;
+    border-radius: 0 0 14px 14px;
+}
+.tutors_section .all_tutors .single_tutor .tutor_description .name{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #0A093D;
+    padding: 20px 0 0 0;
+    margin: 0;
+}
+.tutors_section .all_tutors .single_tutor .tutor_description .subject{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #0975F9;
+}
+.tutors_section .all_tutors .single_tutor .tutor_description .view_details{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 23px;
+    color: #ffffff;
+    text-decoration: none;
+    background: #0975F9;
+    border: 1.5px solid transparent;
+    padding: 6px 40px;
+    display: inline-block;
+    border-radius: 17.5px;
+    margin-bottom: 20px;
+    transition: all .2s ease-in-out;
+}
+.tutors_section .all_tutors .single_tutor .tutor_description .view_details:hover{
+    background: transparent;
+    border: 1.5px solid #0975F9;
+    color: #0B1033;
+}
+/* all tutor end */
+
+/* contact css start */
+.contact_section {
+	background: #f8fafc;
+	padding: 40px 0;
+}
+.contact_section .contact_container {
+	max-width: 1024px;
+	margin: auto;
+}
+.contact_form {
+	background: #FFFFFF;
+    border: 1px solid #EFECF4;
+    box-shadow: 17px 17px 100px rgba(11, 16, 51, 0.04);
+	padding: 15px;
+	margin-bottom: 20px;
+}
+.contact_section .map {
+	background: #FFFFFF;
+    border: 1px solid #EFECF4;
+    box-shadow: 17px 17px 100px rgba(11, 16, 51, 0.04);
+	padding: 15px;
+	margin-bottom: 20px;
+}
+.contact_section .map p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #0B1033;
+}
+.contact_form form textarea,
+.contact_form form input {
+	line-height: 1.8;
+	background-color: #0975F908;
+	border-radius: 2px;
+}
+.contact_form form label {
+	font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #0B1033;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+.contact_form form textarea:focus,
+.contact_form form input:focus{
+    box-shadow: unset;
+    background: #ffffff;
+}
+.contact_form .contact_btn {
+	font-family: 'Outfit', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: #ffffff;
+	line-height: 19px;
+	text-transform: uppercase;
+	text-decoration: none;
+    background: #0975f9;
+	background-color: #0975f9;
+	padding: 14px 0;
+	display: inline-block;
+	margin-right: 10px;
+	width: 100%;
+	text-align: center;
+	border-radius: 1.5px;
+    border: 1px solid transparent;
+    transition: all .2s ease-in-out;
+}
+.contact_form .contact_btn:hover{
+    background: transparent;
+    border: 1px solid #0975f9;
+    color: #000000;
+}
+/* contact css end */
+
+/* tution details start */
+.tution_details{
+    padding: 50px 0;
+}
+.tution_details-container{
+    max-width: 960px;
+    margin: auto;
+}
+.post_card .post_card_content .content_item .item_data span{
+	font-family: 'Outfit', sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 26px;
+	color: #1b2046;
+	text-transform: capitalize;
+}
+.tution_details .starting_from .starting_text {
+	font-family: 'Outfit', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	margin: 0;
+	color: #8E90A0;
+}
+.tution_details .starting_from .starting_money {
+	font-family: 'SamsungSharpSans';
+	font-size: 22px;
+	line-height: 28px;
+	color: #0975F9;
+}
+.action_btn{
+    text-align: right;
+}
+.tution_details .action_btn .book_btn {
+	border: 1px solid transparent;
+	border-radius: 4px;
+	padding: 6px 10px;
+	font-family: 'Outfit', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 28px;
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #0975F9;
+    text-transform: capitalize;
+	margin: 0px 5px;
+	transition: all .3s ease-in-out;
+}
+.tution_details .action_btn .book_btn:hover {
+	border: 1px solid #DDDDDD;
+	background: transparent;
+	color: #0B1033;
+}
+.tution_details .action_btn .save_btn{
+
+}
+.tution_details .action_btn .save_btn i{
+    font-size: 25px;
+    margin-right: 20px;
+}
+/* tution details end */
+
+
+/* customer profile start */
+
+.dashboard_wrapper{
+    background: #f2f3f8;
+    padding: 50px 0;
+    min-height: 500px;
+}
+.dashboard_wrapper .sidber_menu{
+    background: #ffffff;
+    border-radius: 0px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05) !important;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.dashboard_wrapper .sidber_menu ul{
+    list-style: none;
+}
+
+.dashboard_wrapper .sidber_menu .dashboard_title_tab{
+    padding: 10px 15px;
+    border-radius: 0px;
+    font-family: 'ProductSans';
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+
+}
+.dashboard_wrapper .sidber_menu .dashboard_title_tab.active,
+.dashboard_wrapper .sidber_menu .dashboard_title_tab:hover{
+    background: #d5f2ea;
+}
+.dashboard_wrapper .content_wrapper{
+
+}
+.dashboard_wrapper .content_wrapper .tab_content{
+    background: #ffffff;
+    border-radius: 0px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05) !important;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: none;
+}
+.dashboard_wrapper .content_wrapper .tab_content.active{
+    display: block;
+}
+
+
+.order_wraps{
+
+}
+.table > :not(:last-child) > :last-child > * {
+	border-bottom-color: #b6b4b4 !important;
+}
+.order_wraps .order_table{}
+.order_wraps .order_table thead tr th{
+    text-align: center;
+    font-family: 'ProductSans';
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.order_wraps .order_table tbody tr td {
+	vertical-align: middle;
+	text-align: center;
+	font-size: 16px;
+	font-family: 'ProductSans';
+	font-weight: 500;
+	color: #000;
+}
+.order_wraps .order_table .product_id a{
+
+}
+.order_wraps .order_table .order_date p{
+    color: #000;
+    margin: 0;
+}
+.order_wraps .order_table .product_price{}
+.order_wraps .order_table .order_status{}
+.order_wraps .order_table .order_status span{
+    background: #108666;
+    padding: 4px 5px;
+    border-radius: 3px;
+    font-size: 16px;
+	font-family: 'ProductSans';
+	font-weight: 500;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.order_wraps .order_table .subtotal_amount {}
+.order_wraps .order_table .order_status {}
+.order_wraps .order_table .order_status a.view_details,
+.order_wraps .order_table .order_status a.remove{
+    color: #000000;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    background: #d5f2ea;
+    display: inline-block;
+    text-align: center;
+    font-size: 13px;
+    transition: all .5s;
+}
+.order_wraps .order_table .order_status a.remove{
+    background: #dfb3bb;
+}
+.order_wraps .order_table .order_status a.remove:hover{
+    background: #c94560;
+    color: #ffffff;
+}
+.order_wraps .order_table .order_status a:hover{
+    background: #108666;
+    color: #ffffff;
+}
+/* customer profile end */
+/* user Profile  Start*/
+
+.picture-container{
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+        }
+        .picture{
+            width: 120px;
+            height: 120px;
+            background-color: #999999;
+            border: 4px solid #CCCCCC;
+            color: #FFFFFF;
+            border-radius: 50%;
+            margin: 0px auto;
+            overflow: hidden;
+            transition: all 0.2s;
+            -webkit-transition: all 0.2s;
+        }
+        .picture:hover{
+            border-color: #2ca8ff;
+        }
+        .content.ct-wizard-green .picture:hover{
+            border-color: #05ae0e;
+        }
+        .content.ct-wizard-blue .picture:hover{
+            border-color: #3472f7;
+        }
+        .content.ct-wizard-orange .picture:hover{
+            border-color: #ff9500;
+        }
+        .content.ct-wizard-red .picture:hover{
+            border-color: #ff3b30;
+        }
+        .picture input[type="file"] {
+            cursor: pointer;
+            display: block;
+            height: 100%;
+            left: 0;
+            opacity: 0 !important;
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+
+        .picture-src{
+            width: 100%;
+
+        }
+/* user Profile  end*/
+
+/* Search */
+.filter_category h3 {
+	font-family: 'ProductSans';
+	font-weight: 700;
+}
+.all_books .filtering .filter_category select{
+    height: 45px;
+	background-color: #eaeaea;
+	border: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	color: #0f1626;
+	border-radius: 0px;
+    cursor: pointer;
+    margin: 10px 10px 10px 0px !important;
+    font-family: 'ProductSans';
+}
+.all_books .filtering .filter_category select:focus {
+	box-shadow: unset !important;
+	background-color: #eaeaea;
+}
+.header-top__search-form {
+	position: relative;
+    display: block;
+}
+.search_by h3 {
+	font-family: 'ProductSans';
+	font-weight: 700;
+}
+.header-top__search-form input {
+	height: 45px;
+	background-color: white;
+	border:1px solid #cbcbcb;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	color: #0f1626;
+	border-radius: 0px;
+    margin: 10px 10px 10px 0px !important;
+    font-family: 'ProductSans';
+}
+.header-top__search-form__button {
+	border: unset;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+	padding: 11px 22px 10px 22px;
+	line-height: unset;
+	background-color: #0a75f9;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+    color: #ffffff;
+}
+.header-top__search-form input:focus {
+	box-shadow: unset !important;
+	background-color: #eaeaea;
+}
+  .select2-container .select2-selection--single .select2-selection__rendered {
+    display: block;
+    padding-left: 8px;
+    padding-right: 1px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0px;
+    margin: -12px;
+}
+    .select2-container .select2-selection--single {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    height: 29px!important;
+    user-select: none;
+    -webkit-user-select: none;
+    padding: 19px!important;
+    margin-bottom: 10px!important;
+}
+
+/* about page css start*/
+
+.about{
+    padding: 100px 0 100px;
+}
+.about .about_container{
+    max-width: 940px;
+    margin: auto;
+}
+.about .about_container .about_title h2{
+    font-family: 'SamsungSharpSans';
+    font-size: 42px;
+    line-height: 130%;
+    color: #242424;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.about .about_container .about_feature_image img{
+    width: 100%;
+}
+.about .about_container .about_content{
+    padding-top: 40px;
+}
+.about .about_container .blog_content p{
+    font-family: 'ProductSans';
+    font-size: 16px;
+    font-weight: 400;
+    color: #7C7C7C;
+}
+
+/* about page css end  */
+/* filter css start*/
+.select2-container--default .select2-selection--single .select2-selection__placeholder,
+.filter_category .select2-container .select2-selection--single .select2-selection__rendered {
+	color: #0B1033 !important;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.filter_category .select2-container .select2-selection--single .select2-selection__rendered {
+    display: block;
+    padding-left: 8px;
+    padding-right: 1px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0px;
+    margin: -12px;
+}
+.filter_category .select2-container .select2-selection--single {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    height: 29px!important;
+    user-select: none;
+    -webkit-user-select: none;
+    padding: 22px!important;
+}
+.select2-container--default .select2-selection--single .select2-selection__clear {
+	padding: 4px 1px 3px 8px !important;
+}
+.filter_category select, .filter_category input{
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px !important;
+    font-weight: 400;
+    color: #0B1033;
+    padding: 8px;
+}
+.header-top__search-form input{
+    line-height: unset;
+	box-sizing: border-box;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px !important;
+    font-weight: 400;
+    color: #0B1033 !important;
+}
+.header-top__search-form input:focus{
+    background: #ffffff;
+    border: 1px solid #aaa;
+}
+.filter_category span.select2 {
+	width: 100% !important;
+	display: block;
+}
+.filter_category select:focus{
+    box-shadow: unset;
+}
+
+.filtering {
+	margin-bottom: 20px;
+}
+/* filter css end */

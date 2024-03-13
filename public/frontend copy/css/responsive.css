@@ -1,0 +1,892 @@
+@media all and (max-width: 1400px){
+
+}
+
+@media all and (max-width: 1200px){
+    /* header start */
+    .main_header .apply .apply_btn {
+        font-size: 17px;
+        line-height: 20px;
+        padding: 15px 35px;
+    }
+    /* header end */
+    .banner_content {
+        padding: 130px 0 150px;
+    }
+    .banner_section {
+        height: 70vh;
+    }
+    /* newsletter css */
+    .newsletter {
+        padding: 50px 80px;
+    }
+    /* price start */
+    .price {
+        padding: 65px 0;
+    }
+    .price .section_title .title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .price .section_title .subtitle {
+        font-size: 15px;
+        line-height: 25px; ;
+    }
+    .price .price_table .single_table .plan_name {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .price .price_table .single_table .plan_price {
+        font-size: 38px;
+        line-height: 70px;
+    }
+    /* price end */
+
+    /* login registration start */
+    .login_registration {
+        padding: 60px 0;
+    }
+    .login_registration .input_area .input_header .subtitle {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .login_registration .input_area .input_header .title {
+        font-size: 25px;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+    .login_registration .input_area .input_header {
+        margin: 0px 0px 30px;
+    }
+    .login_registration .input_area form input,  .login_registration .input_area form select {
+        padding: 15px;
+        font-size: 16px;
+        line-height: 20px;
+        margin: 0px 0px 16px;
+    }
+    .login_registration .input_area form button.submit {
+        padding: 15px;
+        border-radius: 12px;
+        font-size: 16px;
+        line-height: 18px;
+        margin-bottom: 16px;
+    }
+    .login_registration .input_area form button.sign_with_google {
+        padding: 15px;
+        border-radius: 12px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    /* login registration end */
+}
+@media all and (max-width: 992px){
+    /* header start */
+    .main_header .main_menu ul li a {
+        padding: 8px 0;
+    }
+    /* header end */
+
+
+
+    /* banner css */
+    .banner_content .banner_title {
+        font-size: 50px;
+    }
+    .banner_content {
+        padding: 70px 0;
+    }
+    .banner_content .banner_text {
+        width: 80%;
+    }
+    .banner_section {
+        height: unset;
+    }
+
+    /* title shape css start*/
+    .section_title .title_text .prev_shape {
+        position: absolute;
+        top: 45%;
+        left: 0%;
+        width: 160px;
+    }
+    .section_title .title_text .next_shape {
+        position: absolute;
+        top: 45%;
+        right: 0%;
+        width: 160px;
+    }
+    /* title shape css end*/
+
+    /* father profile start */
+
+    .profile .father_profile .profile_image {
+        position: relative;
+        padding: 0px 0px 80px;
+    }
+
+    .profile .father_profile .profile_image::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 730px 0 0 670px;
+        border-color: transparent transparent transparent #007bff;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+    .profile .father_profile::after {
+        border-width: 0;
+    }
+    .profile .father_profile .profile_image {
+        text-align: center;
+    }
+    /* father profile end */
+
+    /* pircing start */
+    .price {
+        padding: 40px 0;
+    }
+    .price .price_table .single_table .plan_price {
+        font-size: 35px;
+        line-height: 55px;
+    }
+    .price .price_table {
+        margin-top: 40px;
+    }
+    /* pircing end */
+
+    /* tutor profile start */
+    .tutor_profile .starting_from .starting_text {
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .tutor_profile .starting_from .starting_money {
+        font-size: 16px;
+        line-height: 14px;
+        margin-top: 10px;
+    }
+    .tutor_profile .profile_description .profile_name {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .tutor_profile .profile_description .oneliner {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .tutor_profile .profile_description .description_content .content_item .item_data {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .tutor_profile .profile_description .description_content .content_item .item_data span {
+        font-size: 16px;
+    }
+    .tutor_profile .profile_description .description_content .subject .sub_content .item_data span {
+        font-size: 16px;
+    }
+    .tutor_profile .profile_description .description_content .subject .sub_content .item_data {
+        font-size: 14px;
+    }
+    .tutor_profile .profile_description .description_content .content_item {
+        display: flex;
+        margin-top: 5px;
+    }
+    /* tutor profile end */
+
+}
+
+
+
+
+
+@media all and (max-width: 767px){
+    .main_header .main_menu{
+        text-align: center;
+    }
+    .main_header .main_menu ul li > ul {
+        left: 50%;
+        transform: translateX(-20%);
+    }
+
+    /* banner css start */
+    .banner_content .banner_btn {
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+    .banner_content .banner_btn {
+        margin-top: 20px;
+    }
+    .banner_content .banner_btn .all_btn {
+        margin: 15px 7.5px 0;
+    }
+    .banner_content .banner_btn .all_btn {
+        font-size: 14px;
+        width: 150px;
+        line-height: 20px;
+        border-radius: 10px;
+        padding: 14px 0;
+        display: flex;
+        margin: 15px 7.5px 0;
+    }
+    .banner_content .banner_title {
+        line-height: 57px;
+    }
+    .banner_content .banner_title {
+        font-size: 37px;
+    }
+    /* banner css end */
+
+    /* tution start */
+    .tuition {
+        padding: 70px 0;
+    }
+    .tuition .section_title h2 {
+        font-size: 30px;
+    }
+    /* tution end */
+    /* newsletter css start */
+    .newsletter {
+        text-align: center;
+        padding: 0px 0px 50px;
+
+    }
+    .newsletter .news_title {
+        font-size: 25px;
+    }
+    /* newsletter css start */
+
+    /* login register css start */
+    .login_registration {
+        padding: 50px 0;
+    }
+    .login_registration .image_area {
+        display: none;
+    }
+    .login_registration .input_area .input_header {
+        margin: 0px 0px 30px;
+        text-align: center;
+    }
+    /* login register css end */
+
+    /* father registration start */
+    .profile .father_profile .profile_image::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 660px 0 0 525px;
+        border-color: transparent transparent transparent #007bff;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+    .profile .father_profile .profile_info .other_info .info_type .first {
+        width: 28%;
+    }
+    .profile .father_profile .profile_info .other_info .info_type .second {
+        width: 72%;
+    }
+    /* father registration end */
+
+    /* price start */
+    .price {
+        padding: 45px 0;
+    }
+    /* price end */
+    /* profile start */
+    .tutor_profile .action_btn {
+        justify-content: center;
+    }
+    .tutor_profile .profile_description .description_content .content_item {
+        display: flex;
+        margin-top: 10px;
+    }
+    .tutor_profile .profile_padding {
+        text-align: center;
+    }
+    .tutor_profile .profile_image {
+        margin: auto;
+    }
+    .tutor_profile .profile_description .description_content {
+        width: 165px;
+        margin: auto;
+    }
+    /* profile end */
+
+
+    /* footer css start */
+    .footer .footer_top {
+        padding: 40px 0;
+        text-align: center;
+    }
+    .footer .footer_top .footer_intro .social_links ul {
+        justify-content: center;
+    }
+    /* footer css end */
+
+}
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 576px){
+    .main_header .apply .apply_btn {
+        font-size: 15px;
+        line-height: 15px;
+        padding: 12px 25px;
+    }
+    /* banner css start*/
+    .banner_content .banner_title {
+        line-height: 50px;
+    }
+
+    /* banner css end */
+    /* pagination start */
+    .job_board nav ul li a .next,
+    .job_board nav ul li a .prev{
+        display: none;
+    }
+    /* pagination end */
+    /* father profile start */
+    .profile .father_profile .profile_image img {
+        width: 80%;
+        margin-right: 0px;
+    }
+    .profile .father_profile .ps-5 {
+        padding-left: 10px !important;
+    }
+    .profile .father_profile .profile_info .other_info .info_type .first .info_name {
+        font-size: 18px;
+    }
+    .profile .father_profile .profile_info .other_info .info_type .second .info_value {
+        font-size: 16px;
+    }
+    /* father profile end */
+
+    /* profile start */
+    .tutor_profile .action_btn {
+        padding: 12px 0px;
+    }
+    .tutor_profile .action_btn .talk_btn {
+        padding: 6px 4px;
+        font-size: 14px;
+        margin: 0px 0px;
+    }
+    .tutor_profile .starting_from .starting_text {
+        font-size: 16px;
+    }
+
+    /* profile end */
+
+    /* tutors start */
+    .tutors_section .all_tutors .single_tutor .tutor_profile_image {
+        background: #E6F1FE;
+        border-radius: 14px 14px 0 0;
+        max-height: 260px;
+        min-height: 260px;
+        overflow: hidden;
+        padding-top: 20px;
+    }
+    /* tutors end */
+
+    /* login registration start */
+    .login_registration {
+        padding: 25px 0;
+    }
+    .login_registration .input_area .input_header .subtitle {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .login_registration .input_area .input_header .title {
+        font-size: 22px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+    .login_registration .input_area .input_header {
+        margin: 0px 0px 20px;
+    }
+    .login_registration .input_area form label {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    /* login registration end */
+    /* profile start */
+    .tutor_profile .starting_from {
+        margin-top: 20px;
+    }
+    .tutor_profile .profile_description .description_content .content_item {
+        margin-top: 5px;
+    }
+    /* profile end */
+
+}
+@media all and (max-width: 530px){
+    /* banner css */
+    .banner_content .banner_readMore {
+        width: 160px;
+        height: 50px;
+    }
+    .section_title .title_text .prev_shape {
+        display: none;
+    }
+    .section_title .title_text .next_shape {
+        display: none;
+    }
+    .tuition {
+        padding: 25px 0;
+    }
+    /* father profile start */
+    .profile .father_profile .profile_image::after {
+        border-width: 550px 0 0 400px;
+    }
+    .profile .father_profile {
+        padding: 100px 0;
+    }
+    /* father profile end */
+}
+
+
+
+
+
+
+@media all and (max-width: 500px){
+
+    /* main header start */
+    .main_header {
+        padding: 7px 0;
+    }
+    .main_header .logo {
+        font-size: 35px;
+    }
+    .main_header .main_menu ul li a {
+        padding: 5px 0;
+    }
+    .main_header .main_menu ul li a {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+        padding: 8px 0; ;
+    }
+    /* main header end */
+    /* banner css start */
+    .banner_content {
+        /*padding: 45px 0;*/
+    }
+    .banner_content .banner_title {
+        line-height: 33px;
+        font-size: 22px;
+    }
+    .banner_content .banner_text {
+        font-size: 14px;
+        line-height: 20.6px;
+    }
+    .banner_content .banner_btn .all_btn {
+        font-size: 13px;
+        width: 139px;
+        line-height: 18px;
+        margin: 13px 4.5px 0;
+    }
+    /* banner css end */
+
+    /* tuition start */
+    .tuition .tuition_news {
+        margin-top: 15px;
+    }
+    .tuition .section_title h2 {
+        font-size: 22px;
+    }
+    /* tuition end */
+
+    /* post card start */
+    .post_card .post_card_header .class_title h4 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .post_card .post_card_header .job_id span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .post_card .post_meta .location i {
+        font-size: 15px;
+        margin-right: 7px;
+    }
+    .post_card .post_meta .location span {
+        font-size: 13px;
+        margin-right: 15px;
+    }
+    .post_card .post_meta .date span {
+        font-size: 13px;
+    }
+    .post_card .post_card_content .content_item .item_data {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .post_card .post_card_content .content_item .icon i {
+        width: 35px;
+        height: 35px;
+        font-size: 15px;
+    }
+    .post_card .button .view_btn {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+        padding: 10px 16px;
+        border-radius: 22px;
+    }
+    /* post card end */
+
+    /* newsletter start */
+    .newsletter .news_subtitle {
+        font-size: 13px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+    .newsletter .news_title {
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    .newsletter .newsletter_form form input {
+        width: 100%;
+        height: 35px;
+        padding: 0 18px;
+        font-size: 14px;
+    }
+    .newsletter .newsletter_form form .news_btn {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px;
+        padding: 12px 26px;
+    }
+    .newsletter .newsletter_form form .news_btn {
+        padding: 7px 8px;
+    }
+    .newsletter {
+        padding: 0px 0px 20px;
+    }
+    /* newsletter end */
+
+    /* pirce start */
+   .price .section_title .subtitle {
+	    font-size: 16px;
+    }
+   .price .section_title .title {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .price .price_table .single_table .plan_price {
+        font-size: 30px;
+        line-height: 50px;
+        margin-bottom: 10px;
+    }
+    .price .price_table .single_table .plan_name {
+        font-size: 21px;
+        line-height: 30px;
+    }
+   /* pirce end */
+
+    /*tutors start */
+    .tutors_section .all_tutors .single_tutor .tutor_profile_image {
+        max-height: 230px;
+        min-height: 230px;
+        padding-top: 10px;
+    }
+    /*tutors end */
+    .portfolio_experience .experience_title h3 {
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+    }
+    .portfolio_experience .experience_description p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+   /* footer start */
+   .footer .footer_top {
+	padding: 20px 0;
+    }
+    .footer .footer_top .footer_intro p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .footer .footer_top .footer_intro .social_links ul li.facebook a,
+    .footer .footer_top .footer_intro .social_links ul li.instagram a,
+    .footer .footer_top .footer_intro .social_links ul li.twitter a {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+    .footer .footer_top .important_links .link_title h3 {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 10px;
+    }
+    .footer .footer_top .important_links ul li a {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .footer .footer_top .pages .pages_title h3 {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 10px;
+    }
+    .footer .footer_top .pages ul li a {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .footer .footer_top .contact_us .contact_title h3 {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 10px;
+    }
+    .footer .footer_top .contact_us .contact_item a {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .copyright_area {
+        padding: 10px 0 0px;
+    }
+    .copyright_area p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+   /* footer end */
+
+}
+
+@media all and (max-width: 450px){
+
+    /* main header start */
+    .main_header button span {
+        font-size: 25px !important;
+    }
+    /* main header end */
+
+   /* father profile start */
+   .profile .father_profile .profile_image::after {
+	border-width: 400px 0 0 300px;
+    }
+    .profile .father_profile {
+        padding: 50px 0;
+    }
+   /* father profile end */
+   /* tution history start */
+   .active_tution_area .active_tution_item .item_body .tution_item {
+	margin: 20px 0px;
+    }
+   /* tution history end */
+
+   /* tutors start */
+   .tutors_section .all_tutors .single_tutor .tutor_profile_image {
+	max-height: 135px;
+	min-height: 135px;
+	padding-top: 6px;
+    }
+    .tutors_section .all_tutors .single_tutor .tutor_description .name {
+        font-size: 14px;
+        line-height: 15px;
+        padding: 11px 0 0 0;
+    }
+    .tutors_section .all_tutors .single_tutor .tutor_description .subject {
+        font-size: 13px;
+        line-height: 26px;
+        margin-top: 5px;
+    }
+    .tutors_section .all_tutors .single_tutor .tutor_description .view_details {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 5px 16px;
+        display: inline-block;
+        margin-bottom: 15px;
+        transition: all .2s ease-in-out;
+    }
+    .tutors_section .all_tutors .single_tutor .tutor_description .view_details {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        text-decoration: none;
+        background: #0975F9;
+        border: 1.5px solid transparent;
+        padding: 5px 16px;
+        display: inline-block;
+        border-radius: 17.5px;
+        margin-bottom: 15px;
+        transition: all .2s ease-in-out;
+    }
+    .tutors_section .all_tutors .row > * {
+        padding-right: calc(var(--bs-gutter-x) * .2);
+        padding-left: calc(var(--bs-gutter-x) * .2);
+        margin-top: var(--bs-gutter-y);
+    }
+    .tutors_section .all_tutors .single_tutor {
+        margin-bottom: 9px;
+    }
+    .tutors_section {
+        padding: 20px 0;
+    }
+   /* tutors end */
+
+   /* pagination start */
+   .pagination{
+        margin-top: 1rem;
+   }
+   .pagination .page-item {
+	    font-size: 13px;
+    }
+    .pagination .page-link {
+        padding: .3rem .6rem;
+    }
+    .pagination .page-link:focus{
+        box-shadow: unset;
+    }
+   .page-item {
+	    font-size: 13px;
+    }
+   /* pagination end */
+
+   /* login registration start */
+   .login_registration .input_area form input,  .login_registration .input_area form select {
+        padding: 10px;
+        font-size: 14px;
+        line-height: 15px;
+        margin: 0px 0px 14px;
+    }
+    .login_registration .input_area form button.submit {
+        padding: 9px;
+        border-radius: 12px;
+        font-size: 14px;
+        line-height: 15px;
+        margin-bottom: 14px;
+    }
+    .login_registration .input_area form button.sign_with_google {
+        padding: 9px;
+        border-radius: 12px;
+        font-size: 14px;
+        line-height: 15px;
+    }
+   /* login registration end */
+
+   /* profile css start */
+   .profile .father_profile .profile_info .name_and_id .profile_name {
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+    }
+    .profile .father_profile .profile_info .name_and_id .profile_id {
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .profile .father_profile .profile_info .other_info .info_type .first .info_name {
+        font-size: 14px;
+    }
+    .profile .father_profile .profile_info .other_info .info_type .second .info_value {
+        font-size: 13px;
+    }
+    .profile .father_profile .profile_info .other_info .info_type {
+        margin-bottom: 5px;
+    }
+   /* profile css end */
+
+   /* job board start */
+   .job_board .jobs_post {
+	    padding: 30px 0;
+    }
+    .job_board .section_title {
+        padding-top: 25px;
+    }
+    .job_board nav {
+        margin-top: 15px;
+    }
+   /* job board end */
+
+   /* profile start */
+   .tutor_profile .profile_description .profile_name {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .tutor_profile .profile_description .oneliner {
+        font-size: 13px;
+        line-height: 14px;
+    }
+    .profile_review .review_content .reviewer_name {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .profile_review .review_content .review_comment p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 8px;
+    }
+    .tutor_profile {
+        margin: 10px 0px;
+    }
+   /* profile end */
+}
+@media all and (max-width: 400px){
+    /* banner css */
+    /* newsletter css start */
+    /* newsletter css end */
+
+    /* price start */
+    .price {
+        padding: 25px 0;
+    }
+    .price .section_title .subtitle {
+        font-size: 14px;
+    }
+    .price .section_title .subtitle {
+        line-height: 20px;
+    }
+    .price .section_title .title {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .price .price_table {
+        margin-top: 25px;
+    }
+    .price .price_table .single_table .plan_name {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .price .price_table .single_table .plan_price {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .price .price_table .single_table .plan_description {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .price .price_table .single_table .specifications_list li {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 5px;
+    }
+    /* price end */
+
+    .tutor_profile .profile_image {
+        max-width: 90%;
+        height: auto !important;
+    }
+
+    .tutor_profile .profile_description .description_content {
+        width: 90% !important;
+        margin: auto;
+    }
+}

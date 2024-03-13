@@ -1,0 +1,519 @@
+[27-Apr-2023 16:58:22 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[27-Apr-2023 16:58:22 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[27-Apr-2023 16:58:22 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[27-Apr-2023 16:58:22 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[27-Apr-2023 16:58:23 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[27-Apr-2023 16:58:24 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[27-Apr-2023 16:58:26 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[27-Apr-2023 16:58:26 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[27-Apr-2023 16:58:26 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[27-Apr-2023 16:58:26 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[27-Apr-2023 16:58:27 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[27-Apr-2023 16:58:28 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[27-Apr-2023 16:58:28 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[27-Apr-2023 16:58:28 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[27-Apr-2023 16:58:30 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[27-Apr-2023 16:58:30 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[27-Apr-2023 16:58:30 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[20-May-2023 16:39:21 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[20-May-2023 16:39:28 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 17:07:48 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: could not find driver in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal f in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 17:08:34 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: could not find driver in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal f in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 17:09:26 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: could not find driver in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal f in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 17:11:08 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 17:11:48 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 17:12:04 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 17:12:41 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 17:12:51 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 17:13:12 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 17:13:18 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 17:13:33 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 17:14:14 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 17:14:57 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 17:15:22 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 17:15:33 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 17:39:00 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 17:39:42 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 17:39:51 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 17:40:06 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 17:40:14 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 17:40:35 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 17:42:40 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 17:43:33 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 17:44:26 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 17:45:57 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 17:46:18 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 17:47:06 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 17:47:08 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 17:47:12 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 17:47:16 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 17:47:19 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 17:47:23 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 17:47:52 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 17:52:38 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 17:52:40 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[06-Jun-2023 16:40:47 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[27-Aug-2023 11:17:22 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'dawadhui_home_tutor_user'@'localhost' (using password: YES) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.p in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[27-Aug-2023 11:17:29 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'dawadhui_home_tutor_user'@'localhost' (using password: YES) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.p in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[27-Aug-2023 11:17:36 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'dawadhui_home_tutor_user'@'localhost' (using password: YES) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.p in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[27-Aug-2023 11:17:44 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'dawadhui_home_tutor_user'@'localhost' (using password: YES) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.p in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[27-Aug-2023 11:18:13 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'dawadhui_home_tutor_user'@'localhost' (using password: YES) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.p in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[27-Aug-2023 11:18:22 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'dawadhui_home_tutor_user'@'localhost' (using password: YES) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.p in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[27-Aug-2023 11:18:25 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'dawadhui_home_tutor_user'@'localhost' (using password: YES) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.p in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[27-Aug-2023 11:18:29 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'dawadhui_home_tutor_user'@'localhost' (using password: YES) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.p in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[27-Aug-2023 11:18:46 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'dawadhui_home_tutor_user'@'localhost' (using password: YES) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.p in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[27-Aug-2023 11:18:47 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'dawadhui_home_tutor_user'@'localhost' (using password: YES) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.p in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[10-Sep-2023 00:57:28 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'dawadhui_home_tutor_user'@'localhost' (using password: YES) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.p in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[10-Sep-2023 00:57:35 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'dawadhui_home_tutor_user'@'localhost' (using password: YES) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.p in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[10-Sep-2023 00:57:43 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'dawadhui_home_tutor_user'@'localhost' (using password: YES) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.p in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[10-Sep-2023 00:57:46 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'dawadhui_home_tutor_user'@'localhost' (using password: YES) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.p in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[10-Sep-2023 00:58:00 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'dawadhui_home_tutor_user'@'localhost' (using password: YES) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.p in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-Oct-2023 17:46:37 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-Oct-2023 17:46:38 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[30-Oct-2023 16:50:35 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[30-Oct-2023 16:50:42 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[07-Nov-2023 17:53:03 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[07-Nov-2023 17:53:06 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[30-Nov-2023 17:46:20 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[30-Nov-2023 17:46:21 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[30-Nov-2023 17:46:21 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[30-Nov-2023 17:46:22 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[30-Nov-2023 17:46:22 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[30-Nov-2023 17:46:23 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[30-Nov-2023 17:46:23 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[30-Nov-2023 17:46:24 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[01-Dec-2023 17:40:03 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[01-Dec-2023 17:40:04 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#1 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'dawadhui_home_t...', ',BW$FQ_qKcf^', Array)
+#2 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home/dawadhui/thehometutor.net/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712

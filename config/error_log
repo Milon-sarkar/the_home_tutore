@@ -1,0 +1,12 @@
+[02-Apr-2023 20:15:41 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/dawadhui/thehometutor.net/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/dawadhui/thehometutor.net/config/cache.php on line 18
+[23-Sep-2023 16:35:11 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/dawadhui/thehometutor.net/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/dawadhui/thehometutor.net/config/cache.php on line 18
+[01-Nov-2023 09:48:32 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/dawadhui/thehometutor.net/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/dawadhui/thehometutor.net/config/cache.php on line 18

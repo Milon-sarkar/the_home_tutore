@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'SamsungSharpSans';
+  src: url('../fonts/samsungsharp/SamsungSharpSans-Bold.eot');
+  src: url('../fonts/samsungsharp/SamsungSharpSans-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/samsungsharp/SamsungSharpSans-Bold.ttf') format('truetype'),
+       url('../fonts/samsungsharp/SamsungSharpSans-Bold.woff') format('woff'),
+       url('../fonts/samsungsharp/SamsungSharpSans-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProductSans';
+  src: url('../fonts/productsans/ProductSansRegular.eot');
+  src: url('../fonts/productsans/ProductSansRegular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/productsans/ProductSansRegular.ttf') format('truetype'),
+       url('../fonts/productsans/ProductSans-Regular.woff') format('woff'),
+       url('../fonts/productsans/ProductSansRegular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

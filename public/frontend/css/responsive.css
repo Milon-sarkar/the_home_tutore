@@ -1,0 +1,617 @@
+/*--------------------------------------------------------------
+    laptop
+---------------------------------------------------------------*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .main-menu-area ul li a {
+        padding: 9px 9px;
+        font-size: 12px;
+    }
+
+    .mainmenu {
+        display: block !important;
+    }
+    .section-padding {
+        padding: 60px 0;
+    }
+    .add-button a {
+        font-size: 14px;
+    }
+
+ 
+}
+
+/*--------------------------------------------------------------
+    tablet
+---------------------------------------------------------------*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .header-course-search {
+        -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
+    }
+
+    .header-contact-info {
+        -ms-flex-preferred-size: 60%;
+        flex-basis: 60%;
+        padding-right: 0;
+    }
+
+    .main-menu-area {
+        -ms-flex-preferred-size: auto;
+        flex-basis: 80%;
+    }
+
+     
+    .header-log-reg {
+        -ms-flex-preferred-size: 45%;
+        flex-basis: 45%;
+        padding-right: 100px
+    }
+
+    .header-course-search input {
+        font-size: 14px;
+    }
+
+    .header-course-search span {
+        top: 12px;
+        right: 14px;
+    }
+
+    .footer-widget.logo,
+    .footer-widget.footer-cat {
+        margin-bottom: 50px;
+    }
+
+    .hero-area {
+        padding: 120px 0;
+    }
+
+   
+
+  
+
+    .sec-heading h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    
+    .menu-list.widget {
+        padding-bottom: 10px;
+    }
+
+    .blog-pagination li a,
+    .blog-pagination li span {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .course-sidebar.two {
+        margin-top: 80px;
+    }
+
+    .header-toggle-btn {
+        display: block
+    }
+
+    .header-top-area,
+    .sidebar-content .header-log-reg {
+        display: none;
+    }
+
+    .header-log-reg {
+        -ms-flex-preferred-size: 80%;
+        flex-basis: 80%;
+        padding-right: 100px;
+    }
+
+}
+
+/*--------------------------------------------------------------
+    mobile
+----------------------------------------------------------------*/
+@media only screen and (max-width: 991px) {
+    .header-toggle-btn{
+    display: block;
+}
+.header-log-reg {
+        display: none;
+}
+.site-logo {
+    -ms-flex-preferred-size: 13%;
+    flex-basis: 13%;
+}
+.silder-single {
+    padding-top: 114px;
+    padding-bottom: 180px;
+    height: 100%;
+}
+.section-heading p {
+    width: 90%;
+    margin: 0 auto;
+}
+.mainmenu {
+    display: block !important;
+    text-align: center;
+}
+.add-button a {
+    padding: 26px;
+    letter-spacing: 0px;
+    font-size: 16px;
+}
+  .add-button {
+    margin-bottom: 10px;
+}
+.add-button a {
+    padding: 15px;
+    letter-spacing: 0px;
+    font-size: 13px;
+}
+
+.section-padding {
+    padding: 21px 0;
+}
+.add-button2{
+    margin-bottom: 0;
+}
+.mailchimpSection01 .SubsrcribeForm {
+    margin-right: 0;
+    margin-left: 0px;
+}
+.mailchimpSection01 .secTitle {
+    font-size: 24px;
+    line-height: 23px;
+}
+.tuition-box {
+    padding: 21px 0;
+    margin-bottom: 41px;
+}
+.footer-top-area {
+    padding: 54px 0;
+}
+.top-serach{
+    margin-bottom: 10px;
+}
+}
+
+
+@media only screen and (max-width: 767px) {
+.container {
+    max-width: 540px;
+}
+
+/* .header-top-wrap,
+.main-menu-wrap {
+    display: block;
+}
+*/
+.header-contact-info {
+    text-align: center !important;
+    padding: 12px 0 5px;
+}
+
+.header-contact-info li {
+    padding: 5px 15px;
+}
+
+.header-top-social {
+    text-align: center !important;
+}
+
+.header-log-reg {
+    display: none;
+}
+
+.header-btm-area {
+    padding: 16px 0;
+    overflow: hidden
+}
+
+
+.header-toggle-btn {
+    float: right;
+}
+.mean-container a.meanmenu-reveal {
+    width: 20px;
+    height: 20px;
+    padding: 10px 12px;
+    margin-right: 10px
+}
+
+/*.main-menu-area {
+    display: none;
+}*/
+
+
+
+.footer-widget.logo,
+.footer-widget.footer-cat {
+    margin-bottom: 30px;
+}
+
+.footer-widget.recent-post {
+    margin-bottom: 55px;
+}
+
+.banner-content h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+
+
+
+
+.menu-list.widget {
+    padding-bottom: 10px;
+}
+
+.sidebar-inner {
+    padding: 20px;
+}
+
+.sidebar-close {
+    top: 22px;
+    right: 20px;
+}
+
+.sidebar-wrap {
+    width: 290px;
+}
+
+.header-toggle-btn {
+    margin-left: 0;
+}
+
+.header-toggle-btn a {
+    top: 5px;
+}
+
+.header-toggle-btn a::before {
+    height: 40px;
+    width: 40px;
+}
+
+.header-toggle-btn,
+.sidebar-content .header-log-reg {
+    display: block
+}
+
+.header-top-area {
+    display: none;
+}
+
+.sidebar-content .search-form input {
+    height: 48px;
+}
+
+.sidebar-content .search-form span {
+    top: 12px;
+    font-size: 18px;
+}
+.slider-single-full h2 {
+    font-size: 40px;
+    line-height: 51px;
+    color: #fff;
+    font-weight: 700;
+}
+.slider-single-full h4 {
+    color: #FF630E;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.baner-bottom ul {
+    margin: 30px 0px 0;
+}
+.baner-bottom ul li a {
+    display: block;
+    padding: 13px 16px;
+}
+
+.silder-single {
+    padding-top: 82px;
+    padding-bottom: 133px;
+}
+
+ .main-menu-area {
+    flex-basis: 93%;
+    z-index: 99;
+}
+.main-menu-area .other-btn{
+    display: none;
+}
+.banner-slider-area {
+    padding: 16px 0;
+}
+
+.mailchimpSection01 .SubsrcribeForm {
+    margin-top: 17px;
+}
+.mailchimpSection01 .secTitle {
+    font-size: 22px;
+    line-height: 20px;
+}
+.mailchimpSection01 .SubsrcribeForm .yikes-easy-mc-form input[type="number"] {
+    height: 49px;
+    border-radius: 12px;
+}
+.mailchimpSection01 .SubsrcribeForm .yikes-easy-mc-form .yikes-easy-mc-submit-button {
+  height: 49px;
+  border-radius: 10px;
+}
+.button-list ul li a {
+    padding: 8px 25px;
+}
+
+.contact-form {
+    margin-bottom: 25px;
+}
+.profile-top .img::before {
+    right: 5%;
+}
+}
+
+
+
+
+
+@media all and (max-width:570px){
+.main-menu-area ul li a {
+    padding: 3px 4px;
+    font-size: 12px;
+    color: #fff;
+     transition: all 0.3s ease;
+}
+.main-menu-area ul li a:hover {
+    color: #ffbf00;
+    background: transparent;
+    display: block;
+    border-radius:0px; 
+    transition: all 0.3s ease;
+    border-bottom: 1px solid white;
+}
+.main-menu-area ul li a.active {
+    color: #ffbf00;
+     background: transparent;
+    display: block;
+    border-radius:0px; 
+    transition: all 0.3s ease;
+    padding: 3px 4px;
+    border-bottom: 1px solid white;
+}
+.main-menu-area ul li {
+    padding: 0 4px;
+}
+.header-toggle-btn a {
+    background: #130f40;
+    width: 25px;
+    height: 25px;
+}
+.banner-slider-area {
+    padding: 14px 0;
+}
+.slider-area-full .owl-dots .owl-dot span::after {
+    top: -4px;
+    left: -4px;
+    width: calc(100% + 8px);
+    height: calc(100% + 8px);
+}
+.mailchimpSection01 .secTitle {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    margin-top: -25px;
+}
+.mailchimpSection01 {
+    position: relative;
+    background: #3d0b53;
+    /* padding: 35px 0 39px; */
+    margin: 0px 5px;
+    border-radius: 35px;
+}
+.sec{
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    margin-top: -25px;
+}
+.search-form button {
+    position: absolute;
+    right: 15px;
+    top: 0px;
+     height: 45px;
+    width: 77px;
+    border: 0;
+   font-size: 17px;
+}
+.search-form input {
+    height: 45px;
+}
+.button-list ul li a {
+    display: block;
+    padding: 6px 12px;
+    font-size: 12px;
+}
+.section-heading h2 {
+    font-size: 19px;
+}
+.section-heading {
+    margin-bottom: 11px;
+}
+.loctin h6 {
+    font-weight: bold;
+    font-size: 13px;
+}
+.box-title h5 {
+    font-weight: bold;
+    font-size: 13px;
+}
+.tuition-all-btn ul li a {
+    padding: 10px 18px;
+    font-size: 12px;
+}
+.tuition-box {
+    padding: 9px 0;
+}
+.footer-widget h4 {
+    font-size: 15px;
+    margin-bottom: 14px;
+}
+.footer-widget li a {
+    display: block;
+    font-size: 15px;
+}
+.footer-widget.logo, .footer-widget.footer-cat {
+    margin-bottom: 7px;
+}
+.des-page h2 {
+    font-size: 24px;
+    color: #242424;
+    margin-bottom: 3px;
+    line-height: 44px;
+}
+p {
+    font-size: 14px;
+}
+.profile-button ul li a {
+    padding: 14px 12px;
+    margin: 7px 0;
+    font-size: 10px;
+}
+.profile-top {
+    padding-bottom: 23px;
+    width: 100%;
+    margin: 0 auto;
+}
+.profile-top .name-des ul li {
+    font-size: 12px;
+}
+
+.profile-top .img img {
+    max-width: 114px;
+    width: 100%;
+}
+
+.profile-content {
+    padding: 17px;
+}
+
+.modal-des {
+    height: 97px;
+    overflow-x: scroll;
+    margin-bottom: 20px;
+}
+.detail-top h4 {
+    font-size: 14px;
+}
+.detail-top {
+    padding: 12px 22px;
+}
+
+
+.content-box-nav.inf-box {
+    padding: 15px 20px;
+}
+.contact-info, .information-box {
+    padding: 6px 0;
+    position: relative;
+}
+.destop-menu{
+    display: none;
+}
+#mobile-menu{
+    display: block !important;
+}
+#mobile{
+    display: block !important;
+}
+
+}
+
+
+
+
+
+
+@media all and (max-width:490px){
+.silder-single {
+    /* padding-top: 130px; */
+    padding-bottom: 90px;
+}
+.slider-single-full h2 {
+    font-size: 37px;
+    line-height: 47px;
+    color: #fff;
+    font-weight: 700;
+}
+.baner-bottom ul {
+    margin: 25px 0px 0;
+}
+.pt-50 {
+    padding-top: 35px;
+}
+.section-heading h2 {
+    font-size: 22px;
+    line-height: 34px;
+}
+
+.add-button a {
+    padding: 13px;
+    letter-spacing: 0px;
+    font-size: 11px;
+}
+.mailchimpSection01 .SubsrcribeForm .yikes-easy-mc-form input[type="number"] {
+  
+    letter-spacing: -0.87px;
+    
+}
+/* .button-list ul li {
+    display: block;
+
+} */
+
+}
+
+@media (min-width: 300px) and (max-width:490px) {
+    .phone-view{
+        height: 2150px;
+        overflow: hidden;
+    }
+   
+    .tuition-box {
+        /* padding: unset; */
+        /* box-shadow: unset; */
+        /* border: 0px; */
+    }
+    /* .tuition-box:hover {
+        border: 0px;
+       
+    } */
+    .video-single{
+        margin-top: 10px;
+    }
+    .large{
+        margin-top: 0px;
+    }
+}
+@media (min-width: 490px) and (max-width:760px) {
+    .video-single{
+        margin-top: 10px;
+    }
+}
+@media (min-width: 320px) and (max-width:490px) {
+    .t-top{
+        gap: 10px;
+    }
+}
